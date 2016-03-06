@@ -1,10 +1,54 @@
 html
   display: block
-  height: 100%
+  height: auto
   width: 100%
 body
   background-color: $gray
   display: flex
   flex-flow: row nowrap
-  height: 100%
+  height: auto
   width: 100%
+.octodex
+  display: flex
+.octocat
+  align-self: center
+  background: no-repeat scroll center center $white
+  background-size: 100%
+  box-shadow: 0 0 15px 5px $shadow
+  border: 30px solid $white
+  box-sizing: border-box
+  display: flex
+  flex-flow: row nowrap
+  padding: 0
+  position: relative
+  &:after
+    content: ""
+    box-shadow: inset 0 0 5px 0 $shadow
+    display: block
+    left: 0
+    height: 100%
+    position: absolute
+    width: 100%
+figure
+  display: block
+  height: 100%
+  margin: 0
+  padding: 0
+  width: 100%
+  img
+    display: block
+    height: 100%
+    width: 100%
+figcaption
+  bottom: -80px
+  left: 50%
+  position: absolute
+  transform: translate( -50%, 0 )
+  width: 100%
+  span
+    color: $text-black
+    display: block
+    font: normal 16px/1.2em Arial, Helvetica, 'sans-serif'
+    margin: 0 auto
+    text-align: center
+    width: 100%
