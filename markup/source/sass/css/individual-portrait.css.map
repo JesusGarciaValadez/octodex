@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAQ,CACN,SAAS,CAAE,aAAa,CAExB,qBAAe,CACb,UAAU,CAAE,IAAI,CAClB,oBAAc,CACZ,aAAa,CAAE,IAAI,CACvB,QAAQ,CACN,UAAU,CAAE,MAAM,CAClB,MAAM,CAAE,GAAG,CACX,MAAM,CAAE,QAAQ,CAChB,KAAK,CAAE,GAAG,CAGZ,UAAU,CACR,MAAM,CAAE,KAAK",
+"sources": ["../custom_styles/mobile/individual-portrait.sass"],
+"names": [],
+"file": "individual-portrait.css"
+}
